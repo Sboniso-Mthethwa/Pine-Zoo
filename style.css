@@ -106,6 +106,12 @@ margin-top      : 12px;
 padding         : 1px;
 }
 
+a.info-box:hover{
+background-color: orange;
+transform: translate(1.1);
+transition: 0.8s ease;
+}
+
 .info-box img{
 height : 70px;
 margin : 10px;
@@ -125,6 +131,8 @@ padding : 0;
 width   : 90%;
 color   : black;
 }
+
+
 
 .info-box img.right{
 float      : right;
